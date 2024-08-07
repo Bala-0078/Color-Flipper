@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Outfit:wght@100..900&display=swap');
+body{
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #d9dbfd 12%, transparent 12.5%, transparent 87%, #d9dbfd 87.5%, #d9dbfd), linear-gradient(150deg, #d9dbfd 12%, transparent 12.5%, transparent 87%, #d9dbfd 87.5%, #d9dbfd), linear-gradient(30deg, #d9dbfd 12%, transparent 12.5%, transparent 87%, #d9dbfd 87.5%, #d9dbfd), linear-gradient(150deg, #d9dbfd 12%, transparent 12.5%, transparent 87%, #d9dbfd 87.5%, #d9dbfd), linear-gradient(60deg, #d9dbfd77 25%, transparent 25.5%, transparent 75%, #d9dbfd77 75%, #d9dbfd77), linear-gradient(60deg, #d9dbfd77 25%, transparent 25.5%, transparent 75%, #d9dbfd77 75%, #d9dbfd77);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+}
+#btn,#rgb,#hex{
+    padding: 20px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid rebeccapurple;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    color: rebeccapurple;
+    margin: 10px 10px;
+}
+#btn:hover,#rgb,#hex{
+    opacity: 0.9;
+}
+#reset{
+    padding: 20px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid rebeccapurple;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    color: rebeccapurple;
+    margin: 10px 10px;
+}
+#reset:hover{
+    opacity: 0.9;
+}
+.btn-click{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.colorBox{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(229, 229, 247);
+    border-radius: 20px;
+    transition: width 1s,height 1s;
+    border: 5px solid rebeccapurple;
+}
+.colorBox:hover{
+    width: 400px;
+    height: 400px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 700;
+    font-size: 50px;
+}
+a{
+    color: rebeccapurple;
+}
